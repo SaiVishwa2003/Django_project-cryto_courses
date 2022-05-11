@@ -1,0 +1,120 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryto Courses</title>
+
+    <style>
+
+     body
+         {
+             background-image: url("{% static 'mysite/images/blur.png' %}");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+         } 
+
+        .topnav 
+           {
+             background-color: rgb(255, 255, 255);
+             overflow: hidden;
+           }
+          
+        .topnav a 
+           {
+             float: left;
+             color: #000000;
+             text-align: center;
+             padding: 14px 20px;
+             text-decoration: none;
+             font-size: 22px;
+           }
+          
+        .topnav a:hover {
+             background-color: #ddd;
+             color: rgb(0, 124, 240);
+          }
+
+        .cryto
+          {
+            image-rendering : url('cryto.jpg');
+          }
+
+        img 
+          {
+            float: left;
+            border: 1px solid #ddd;
+            padding: 5px;
+            width: 700px;
+            height: 400px;
+          }
+
+        p
+          {
+            text-align: center;
+          }
+
+        #bitcoin
+          {
+              float: right;
+          }
+
+        h1
+          {
+            text-align: center;
+            background-color: rgb(87, 0, 0);
+            font-size: 80px;
+            -webkit-background-clip : text;
+            -webkit-text-fill-color: transparent;
+          }
+        
+        h3
+         {
+             text-align: center;
+             color: rgb(87, 0, 0);
+             font-size: 50px;
+         }
+         h2
+         {
+              text-align: center;
+              color:#000000;
+              font-size: 27px;
+         }
+    </style>
+
+</head>
+
+<body>
+    
+    <h1> CRYTO TUTO </h1>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">All courses</a>
+        <a href="#about">About</a>
+        <a href="/templates/traing/register.html">Register</a>
+    </div>  
+    
+    <div> 
+       <img src="{% static 'mysite/images/cryptocurrency.jpeg' %}"> <u><h3>ALL ABOUT BITCOIN</h3> </u><br><h2><b>&nbsp&nbsp&nbsp&nbspUnderstand How Bitcoin Works As A Globally Based Cryptocurrency, And Get Involved With It Practically As Well As Learning The Theoretical Side Of The Currency.Realise How Anyone Can Get Involved In Bitcoin Mining, Whether It’s For Profit Or Just For Fun, You Will Be Able To Start Mining Your Very Own Bitcoins With Everything On...The Complete Guide To Bitcoin - is the only online course that lets you learn about Bitcoin right from the grassroots level, to actually getting involved with it by getting some Bitcoin of your own. </b> </h2>
+    </div> <br><br><br><br><br><br><br><br><br><br>
+
+    <div>
+        <img id="bitcoin" src="{% static 'mysite/images/blockchain.jpeg' %}" > <b> <u><h3>CRYTO GUIDE</h3> </u>  <br><br><h2>&nbsp&nbsp&nbsp&nbsp Have a strong understanding of what blockchain technology is.Know and use key vocabulary and concepts commonly used when discussing blockchain and Bitcoin in business situations.<br>Through my lectures, videos and courses, along with my work with Blockchain Institute of Technology, I help people and their organizations around the world understand and apply blockchain technology and cryptocurrency to increase their impact and make a greater positive contribution to the world.</b></h2>
+    </div>
+    <br><br><br><br><br><br>
+    <div>
+         <h2> THANK YOU FOR VISITING OUR WEB PAGE !!! HOPE YOU ENJOYED IT..</h2>
+    </div>
+    
+    <div>
+         <h4> A Website Done By SAI VISHWA [Artificial Intelligence And Data Science] </h4>
+    </div>
+
+</body>
+
+</html> 
